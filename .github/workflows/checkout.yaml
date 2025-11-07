@@ -16,7 +16,7 @@ jobs:
         run : cat README.md
 
   slack:
-    runs on: ubuntu-latest
+    runs-on: ubuntu-latest
     environment: dev
     steps:
     - name: post a message in a channel
